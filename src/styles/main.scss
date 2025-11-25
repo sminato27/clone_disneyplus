@@ -147,10 +147,16 @@ body {
 
   @media (max-width: 768px) {
     display: block;
+    text-align: center;
   }
 
   img {
     max-width: 100%;
+
+    @media (max-width: 768px) {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   &__text_container {

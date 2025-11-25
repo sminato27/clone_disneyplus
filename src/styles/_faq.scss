@@ -37,7 +37,7 @@
         height: 0;
         overflow: hidden;
         padding: 0 24px;
-        transition: height .5s ease;
+        transition: 200ms ease-in-out;
       }
 
       &--is-open {
@@ -48,7 +48,7 @@
         .faq__questions__item__answer {
           height: auto;
           padding-bottom: 24px;
-          transition: height .5s ease;
+          transition: 200ms ease-in-out;
         }
       }
     }
